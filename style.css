@@ -51,6 +51,10 @@ body {
   font-size: 4rem;
   text-transform: capitalize;
 }
+.card:hover .title {
+  color: green;
+}
+
 .category,
 .price,
 .description {

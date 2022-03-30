@@ -12,14 +12,14 @@ const products = [
   }),
   (id2 = {
     title: "iPhone X",
-    description: "Royal Mirage Sport",
+    description: "Super Retina HD display with OLED technology",
     price: 980,
     category: "smartphones",
     img: "https://dummyjson.com/image/i/products/2/2.jpg",
   }),
   (id3 = {
     title: "iPhone X",
-    description: "Royal Mirage Sport",
+    description: "Super Retina HD display with OLED technology",
     price: 1200,
     category: "smartphones",
     img: "https://dummyjson.com/image/i/products/2/2.jpg",
