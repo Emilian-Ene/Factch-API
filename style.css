@@ -58,7 +58,7 @@ input {
   text-transform: capitalize;
 }
 .card:hover .title {
-  color: green;
+  color: red;
 }
 
 .category,
