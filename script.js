@@ -62,7 +62,7 @@ const products = [
 ];
 
 function data() {
-  products.map((values) => {
+  products.forEach((values) => {
     const allProducts = `<div class="card">
     <h1 class="title"> ${values.title}</h1>
     <img src=${values.img} alt="" class="images" />
@@ -74,3 +74,19 @@ function data() {
   });
 }
 data();
+
+const input = document.getElementById("search");
+input.addEventListener("keyup", search);
+
+function search() {
+  const inputVal = input.value;
+  const title = document.querySelectorAll(".card");
+
+  for (let i = 0; i < title.length; i++) {
+    if (title[i].innerHTML.toLocaleLowerCase().includes(inputVal)) {
+      title[i].style.display = "";
+    } else {
+      title[i].style.display = "none";
+    }
+  }
+}

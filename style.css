@@ -20,6 +20,12 @@ body {
   text-align: center;
   margin: 2rem 2rem;
 }
+input {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid rgb(228, 12, 12);
+}
 .images {
   width: 60%;
 }
